@@ -120,6 +120,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "egift-front"
+    }
+  },
+  "defaultProject": "egift-front",
+  "cli": {
+    "analytics": false
+  }
 }
