@@ -8,6 +8,7 @@ import { StandardLayoutComponent } from './admin/layout/standard-layout/standard
 import { AdminTopNavComponent } from './admin/components/admin-top-nav/admin-top-nav.component';
 import { LoginComponent } from './admin/pages/login/login.component';
 import { AdminSideNavComponent } from './admin/components/admin-side-nav/admin-side-nav.component';
+import { AdminHeaderComponent } from './admin/components/reusable/admin-header/admin-header.component';
 
 @NgModule({
   declarations: [
@@ -17,6 +18,7 @@ import { AdminSideNavComponent } from './admin/components/admin-side-nav/admin-s
     AdminTopNavComponent,
     LoginComponent,
     AdminSideNavComponent,
+    AdminHeaderComponent,
   ],
   imports: [BrowserModule, AppRoutingModule],
   providers: [],

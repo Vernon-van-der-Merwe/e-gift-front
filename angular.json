@@ -125,5 +125,10 @@
   "defaultProject": "egift-front",
   "cli": {
     "analytics": false
+  },
+  "schematics": {
+    "@schematics/angular:component": {
+      "styleext": "sass"
+    }
   }
 }
